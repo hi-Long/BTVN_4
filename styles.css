@@ -1,0 +1,64 @@
+.topnavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: #333;
+}
+
+a {
+    display: block;
+    float: right;
+
+    padding: 14px 16px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #f2f2f2;
+}
+
+div {
+    position: fixed;
+    top: 50px;
+    left: 0;
+
+    height: 100%;
+    width: 300px;
+}
+
+div[name='content']
+
+ul {
+    position: fixed;
+
+    width: 300px;
+    height: 100%;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: #f1f1f1;
+
+    list-style-type: none;
+
+    overflow: auto;
+}
+
+li {
+    display: block;
+
+    padding: 8px 16px;
+
+    color: #000;
+
+    text-decoration: none;
+}
+
+li a:active {
+    color: white;
+    background-color: #4CAF50;
+}
